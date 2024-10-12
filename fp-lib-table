@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MySXRelay")(type "KiCad")(uri "${KIPRJMOD}/MySXRelay.pretty")(options "")(descr ""))
+)
