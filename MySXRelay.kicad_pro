@@ -515,7 +515,8 @@
       "Net-(D5-A)": "High_voltage",
       "Net-(D5-K)": "High_voltage",
       "Net-(D6-K)": "Power2",
-      "Net-(U3-CS)": "Power2"
+      "Net-(U3-CS)": "Power2",
+      "Net-(U5-VI)": "Power2"
     },
     "netclass_patterns": [
       {
