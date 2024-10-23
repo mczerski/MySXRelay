@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.3,
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -173,7 +179,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -200,7 +208,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -457,23 +470,23 @@
       },
       {
         "bus_width": 39,
-        "clearance": 0.2,
+        "clearance": 2.48,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "High_voltage",
+        "name": "Mains_HC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 0, 31)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "schematic_color": "rgb(255, 19, 0)",
+        "track_width": 2.5,
+        "via_diameter": 2.0,
+        "via_drill": 0.8,
         "wire_width": 39
       },
       {
-        "bus_width": 24,
+        "bus_width": 39,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -481,16 +494,16 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Power",
+        "name": "Mains_HV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 160, 5)",
-        "track_width": 0.25,
+        "schematic_color": "rgb(255, 0, 31)",
+        "track_width": 1.0,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 20
       },
       {
-        "bus_width": 24,
+        "bus_width": 39,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -498,10 +511,27 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Power2",
+        "name": "Mains_LV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 40, 255)",
-        "track_width": 0.25,
+        "schematic_color": "rgb(255, 164, 0)",
+        "track_width": 1.0,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 20
+      },
+      {
+        "bus_width": 39,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "VCC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(77, 189, 18)",
+        "track_width": 0.75,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 20
@@ -512,32 +542,38 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "Net-(D5-A)": "High_voltage",
-      "Net-(D5-K)": "High_voltage",
-      "Net-(D6-K)": "Power2",
-      "Net-(U3-CS)": "Power2",
-      "Net-(U5-VI)": "Power2"
+      "Net-(D5-A)": "Mains_HV",
+      "Net-(D5-K)": "Mains_HV",
+      "Net-(D6-K)": "Mains_LV",
+      "Net-(D7-A)": "Mains_LV",
+      "Net-(D7-K)": "Mains_LV",
+      "Net-(U3-CS)": "Mains_LV",
+      "Net-(U5-VI)": "Mains_LV"
     },
     "netclass_patterns": [
       {
-        "netclass": "Power",
+        "netclass": "VCC",
         "pattern": "VCC"
       },
       {
-        "netclass": "High_voltage",
+        "netclass": "Mains_HC",
         "pattern": "L_IN"
       },
       {
-        "netclass": "High_voltage",
+        "netclass": "Mains_HC",
         "pattern": "L_OUT"
       },
       {
-        "netclass": "Default",
-        "pattern": "N"
+        "netclass": "Mains_LV",
+        "pattern": "+3V3"
       },
       {
-        "netclass": "Power2",
-        "pattern": "+3V3"
+        "netclass": "Mains_HC",
+        "pattern": "N_OUT"
+      },
+      {
+        "netclass": "Mains_LV",
+        "pattern": "N_IN"
       }
     ]
   },

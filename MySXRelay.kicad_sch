@@ -3860,158 +3860,11 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:MCP1703Ax-180xxTT"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MCP1703Ax-180xxTT"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Low Quiescent Current LDO Regulator, 1.8V, 250mA, Vin<=16V, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "REGULATOR LDO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MCP1703Ax-180xxTT_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "MCP1703Ax-180xxTT_1_1"
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Relay:Relay_SPST_Latching_1coil"
+		(symbol "MySXRelay:Relay_SPST_Latching_1coil"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "K"
-				(at 12.065 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Relay_SPST_Latching_1coil"
 				(at 11.43 1.27 0)
 				(effects
 					(font
@@ -4020,8 +3873,17 @@
 					(justify left)
 				)
 			)
+			(property "Value" "FH44L-1AT-L1-DC5V"
+				(at 11.43 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
 			(property "Footprint" ""
-				(at 33.655 -1.27 0)
+				(at 8.636 19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4029,8 +3891,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "Datasheet" ""
+				(at -3.556 16.002 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4039,7 +3901,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Relay SPST, bistable, single-coil, EN50005"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -4326,6 +4188,145 @@
 						)
 					)
 					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Regulator_Linear:MCP1703Ax-180xxTT"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MCP1703Ax-180xxTT"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low Quiescent Current LDO Regulator, 1.8V, 250mA, Vin<=16V, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "REGULATOR LDO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP1703Ax-180xxTT_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MCP1703Ax-180xxTT_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5070,10 +5071,10 @@
 		(uuid "12032fb3-89e0-4af1-9c2e-a6c8391a7f7e")
 	)
 	(junction
-		(at 95.25 125.73)
+		(at 104.14 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "25fd203a-1ba9-4830-8a73-998c187037eb")
+		(uuid "1ba9efea-f8d5-4675-9544-e3259b6c5c57")
 	)
 	(junction
 		(at 237.49 140.97)
@@ -5218,12 +5219,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9965cf2-e0b1-4259-bcf1-7ae5259d7a4c")
-	)
-	(junction
-		(at 95.25 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb43eda0-6588-42ce-bd2d-8584baa78236")
 	)
 	(junction
 		(at 46.99 123.19)
@@ -5443,6 +5438,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 78.74) (xy 36.83 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ea6c4e-f688-4e20-b203-6f5aaad4f4a2")
+	)
+	(wire
+		(pts
 			(xy 199.39 68.58) (xy 199.39 67.31)
 		)
 		(stroke
@@ -5483,16 +5488,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 125.73) (xy 105.41 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16e41e7f-7539-4e05-8a75-8f9567a5e7e0")
-	)
-	(wire
-		(pts
 			(xy 222.25 41.91) (xy 222.25 34.29)
 		)
 		(stroke
@@ -5523,13 +5518,23 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 105.41) (xy 95.25 106.68)
+			(xy 95.25 125.73) (xy 104.14 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ac12aeb-0995-4f02-a2d4-2634c15626fa")
+		(uuid "1dc767ef-27bd-4a66-94e0-95d6fac1159d")
+	)
+	(wire
+		(pts
+			(xy 34.29 76.2) (xy 36.83 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f099f80-2fb4-4e74-8b9b-b1e397417c67")
 	)
 	(wire
 		(pts
@@ -5843,6 +5848,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 110.49) (xy 124.46 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64dd04f5-6d81-4241-826d-61dcd9034f04")
+	)
+	(wire
+		(pts
 			(xy 43.18 39.37) (xy 40.64 39.37)
 		)
 		(stroke
@@ -5910,6 +5925,16 @@
 			(type default)
 		)
 		(uuid "6f133f95-7ccc-4852-bf1a-ba33ee40b99b")
+	)
+	(wire
+		(pts
+			(xy 116.84 110.49) (xy 113.03 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e6dcf2-6be1-4b21-b7ee-f7c051cbb55b")
 	)
 	(wire
 		(pts
@@ -6213,6 +6238,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 118.11) (xy 104.14 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa6c5ae9-e71b-4ed1-9d89-c78d12b00e14")
+	)
+	(wire
+		(pts
 			(xy 138.43 36.83) (xy 139.7 36.83)
 		)
 		(stroke
@@ -6323,6 +6358,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 110.49) (xy 129.54 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd836144-74d9-40bd-97df-0342fec6ef72")
+	)
+	(wire
+		(pts
 			(xy 157.48 62.23) (xy 148.59 62.23)
 		)
 		(stroke
@@ -6360,6 +6405,16 @@
 			(type solid)
 		)
 		(uuid "c63b58bb-4b16-48a7-afd9-5fa2fddc5366")
+	)
+	(wire
+		(pts
+			(xy 101.6 110.49) (xy 105.41 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a1b76e-3ff4-45f8-bc10-9173a44d800c")
 	)
 	(wire
 		(pts
@@ -6453,16 +6508,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 78.74) (xy 36.83 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d52dc1e5-7699-483a-9320-3ce9cf8ce271")
-	)
-	(wire
-		(pts
 			(xy 55.88 57.15) (xy 59.69 57.15)
 		)
 		(stroke
@@ -6523,23 +6568,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 76.2) (xy 36.83 76.2)
+			(xy 104.14 125.73) (xy 105.41 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dad44148-8c58-4737-8f35-aa18c0967a8f")
-	)
-	(wire
-		(pts
-			(xy 95.25 114.3) (xy 95.25 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de990851-07c6-4b16-be0a-209df1ca577d")
+		(uuid "de49534b-182a-41cf-bb82-8bef8d6a3f3c")
 	)
 	(wire
 		(pts
@@ -6613,16 +6648,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 114.3) (xy 95.25 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e880297c-fddf-4fe3-a893-1b1014643582")
-	)
-	(wire
-		(pts
 			(xy 55.88 54.61) (xy 59.69 54.61)
 		)
 		(stroke
@@ -6650,6 +6675,16 @@
 			(type solid)
 		)
 		(uuid "ec06e4a6-ba63-4444-b64c-8eee118824ec")
+	)
+	(wire
+		(pts
+			(xy 129.54 118.11) (xy 104.14 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec12551e-4591-45a5-9cd3-2c99ab4576a4")
 	)
 	(wire
 		(pts
@@ -7454,9 +7489,9 @@
 			)
 		)
 	)
-	(global_label "L_OUT"
+	(global_label "L_IN"
 		(shape input)
-		(at 34.29 78.74 180)
+		(at 34.29 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7466,7 +7501,7 @@
 		)
 		(uuid "876b3fa1-1d75-417e-9997-7fdbec7965cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.6805 78.74 0)
+			(at 27.3738 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7740,9 +7775,9 @@
 			)
 		)
 	)
-	(global_label "L_IN"
+	(global_label "L_OUT"
 		(shape input)
-		(at 34.29 76.2 180)
+		(at 34.29 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7752,7 +7787,7 @@
 		)
 		(uuid "c4dbfe39-db20-46ea-a316-df89816f55ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.3738 76.2 0)
+			(at 25.6805 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7918,22 +7953,22 @@
 	)
 	(global_label "L_IN"
 		(shape input)
-		(at 95.25 105.41 90)
+		(at 101.6 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "e6990083-613f-4c0b-b515-f34ae83c0835")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.25 98.4938 90)
+			(at 94.6838 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8095,16 +8130,82 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 101.6 125.73 0)
+		(at 115.57 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "015d486c-1fd7-4e37-adbe-caa8fe545d7f")
+		(property "Netclass" "Mains_HV"
+			(at 119.126 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 132.08 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "4bdc81d5-7aae-4a82-9d68-1fbcfae6b9f7")
-		(property "Netclass" "High_voltage"
-			(at 100.076 120.904 0)
+		(uuid "1fade59e-78b0-4659-9dab-afcc870744c4")
+		(property "Netclass" "Mains_LV"
+			(at 128.524 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 149.86 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40be8968-4123-41bf-af6a-f683d75daa3b")
+		(property "Netclass" "Mains_LV"
+			(at 146.05 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 95.25 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "487f05e6-c2b1-43b7-9506-b53b7496b470")
+		(property "Netclass" "Mains_HV"
+			(at 91.694 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8125,7 +8226,7 @@
 			(justify right bottom)
 		)
 		(uuid "8526be15-628b-4be5-8c6a-285d40c497e2")
-		(property "Netclass" "Power2"
+		(property "Netclass" "Mains_LV"
 			(at 133.096 139.954 0)
 			(effects
 				(font
@@ -8147,7 +8248,7 @@
 			(justify right bottom)
 		)
 		(uuid "9b1eaea2-e2d8-4f2d-97d2-81b5fa9b11b3")
-		(property "Netclass" "Power2"
+		(property "Netclass" "Mains_LV"
 			(at 155.956 127.762 0)
 			(effects
 				(font
@@ -8155,28 +8256,6 @@
 					(italic yes)
 				)
 				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 91.44 114.3 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c303e0b2-fec1-4623-97f1-aefc7ed98b17")
-		(property "Netclass" "High_voltage"
-			(at 86.614 109.474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -8191,7 +8270,7 @@
 			(justify left bottom)
 		)
 		(uuid "d7c43c54-351e-42bd-8bc9-75237aecde71")
-		(property "Netclass" "Power2"
+		(property "Netclass" "Mains_LV"
 			(at 100.584 144.272 0)
 			(effects
 				(font
@@ -8338,7 +8417,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 95.25 121.92 90)
+		(at 120.65 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8346,7 +8425,7 @@
 		(dnp no)
 		(uuid "0825b4d8-754a-42ad-a945-e4ee8528b732")
 		(property "Reference" "D5"
-			(at 98.806 121.92 0)
+			(at 120.142 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8354,7 +8433,7 @@
 			)
 		)
 		(property "Value" "1n4007/1000V"
-			(at 90.678 121.92 0)
+			(at 123.952 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8362,7 +8441,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 95.25 121.92 0)
+			(at 120.65 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8371,7 +8450,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.smc-diodes.com/propdf/1N4001FL-1N4007FL%20N1646%20REV.A.pdf"
-			(at 95.25 121.92 0)
+			(at 120.65 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8380,7 +8459,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 95.25 121.92 0)
+			(at 120.65 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8389,7 +8468,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 95.25 121.92 0)
+			(at 120.65 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8398,7 +8477,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 95.25 121.92 0)
+			(at 120.65 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9324,83 +9403,6 @@
 			(project "MySXRelay"
 				(path "/73ae532b-17b2-4152-9abe-0d6b33529f07"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Relay_SPST_Latching_1coil")
-		(at 143.51 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37965938-bbe8-4c7f-b513-93adeb20b0fc")
-		(property "Reference" "K2"
-			(at 154.94 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FH44L-1AT-L1-DC5V"
-			(at 154.94 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPST_Panasonic_ADW11"
-			(at 177.165 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.fanhar.com/en/uploads/files/FH44L.pdf"
-			(at 143.51 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A2"
-			(uuid "303016a5-a3f1-4d08-9224-25ab1ebc5882")
-		)
-		(pin "13"
-			(uuid "38eef07a-0638-42b8-9121-b4ba8de30150")
-		)
-		(pin "14"
-			(uuid "42f26712-776e-48b0-b8d8-757a84b046e3")
-		)
-		(pin "A1"
-			(uuid "7b986e30-71be-497e-bb75-5fc3599dae03")
-		)
-		(instances
-			(project "MySXRelay"
-				(path "/73ae532b-17b2-4152-9abe-0d6b33529f07"
-					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -10567,7 +10569,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_PTC")
-		(at 95.25 110.49 180)
+		(at 109.22 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10575,7 +10577,7 @@
 		(dnp no)
 		(uuid "5ea4ef1d-1fb0-4d11-8cfb-6007fde75e88")
 		(property "Reference" "TH1"
-			(at 103.886 109.982 90)
+			(at 108.712 103.632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10583,7 +10585,7 @@
 			)
 		)
 		(property "Value" "ERF-LX005V2"
-			(at 101.346 110.236 90)
+			(at 108.712 105.918 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10591,7 +10593,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_Bourns_MF-RG300"
-			(at 93.98 105.41 0)
+			(at 104.14 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10601,7 +10603,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/0b8e783f0fc46511893b13ba5da48275/LX.LU.pdf"
-			(at 95.25 110.49 0)
+			(at 109.22 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10610,7 +10612,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, positive temperature coefficient"
-			(at 95.25 110.49 0)
+			(at 109.22 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12300,6 +12302,83 @@
 		)
 	)
 	(symbol
+		(lib_id "MySXRelay:Relay_SPST_Latching_1coil")
+		(at 143.51 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad703b94-06ed-4335-87ef-0c3545215b8b")
+		(property "Reference" "K1"
+			(at 154.94 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FH44L-1AT-L1-DC5V"
+			(at 154.94 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MySXRelay:RELAY-TH_FH44L-1AT-L1-DC5V"
+			(at 152.146 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.fanhar.com/en/uploads/files/FH44L.pdf"
+			(at 139.954 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A2"
+			(uuid "f24215be-b7f5-4911-acc5-e42cb42450d5")
+		)
+		(pin "14"
+			(uuid "f93ba9f4-922a-4b47-b2f3-fb6d1d5ee935")
+		)
+		(pin "13"
+			(uuid "9c7ffb3a-ff05-43b6-bc1c-59aa40e0bcc4")
+		)
+		(pin "A1"
+			(uuid "20a093e8-d456-4a7a-825f-bdc93f38832a")
+		)
+		(instances
+			(project ""
+				(path "/73ae532b-17b2-4152-9abe-0d6b33529f07"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 217.17 113.03 0)
 		(unit 1)
@@ -12603,7 +12682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal"
+		(property "Footprint" "MySXRelay:MSTB_2,5_4-G"
 			(at 41.91 73.66 0)
 			(effects
 				(font
