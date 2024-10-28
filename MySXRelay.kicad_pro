@@ -547,8 +547,15 @@
       "Net-(D6-K)": "Mains_LV",
       "Net-(D7-A)": "Mains_LV",
       "Net-(D7-K)": "Mains_LV",
+      "Net-(U2-IN)": "Mains_LV",
+      "Net-(U2-IP)": "Mains_LV",
+      "Net-(U2-VP)": "Mains_LV",
       "Net-(U3-CS)": "Mains_LV",
-      "Net-(U5-VI)": "Mains_LV"
+      "Net-(U5-VI)": "Mains_LV",
+      "unconnected-(U2-SCLK_BPS-Pad8)": "Mains_LV",
+      "unconnected-(U2-SEL-Pad7)": "Mains_LV",
+      "unconnected-(U4-A4-Pad6)": "Mains_LV",
+      "unconnected-(U4-EN1-Pad7)": "Mains_LV"
     },
     "netclass_patterns": [
       {
@@ -574,6 +581,18 @@
       {
         "netclass": "Mains_LV",
         "pattern": "N_IN"
+      },
+      {
+        "netclass": "Mains_LV",
+        "pattern": "TX"
+      },
+      {
+        "netclass": "Mains_LV",
+        "pattern": "RX"
+      },
+      {
+        "netclass": "Mains_LV",
+        "pattern": "CF1"
       }
     ]
   },

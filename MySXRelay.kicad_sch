@@ -7027,7 +7027,7 @@
 			)
 		)
 	)
-	(global_label "N_OUT"
+	(global_label "N_IN"
 		(shape input)
 		(at 34.29 73.66 180)
 		(fields_autoplaced yes)
@@ -7039,7 +7039,7 @@
 		)
 		(uuid "296468c5-edf6-4b20-96af-a2b918eadb67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.3781 73.66 0)
+			(at 27.0714 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8083,7 +8083,7 @@
 			)
 		)
 	)
-	(global_label "N_IN"
+	(global_label "N_OUT"
 		(shape input)
 		(at 34.29 71.12 180)
 		(fields_autoplaced yes)
@@ -8095,7 +8095,7 @@
 		)
 		(uuid "fee090b5-685f-42b2-ba4c-fb3573a7aa15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.0714 71.12 0)
+			(at 25.3781 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8174,6 +8174,52 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 208.28 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "29716718-811f-417c-92d3-9990ba9587d4")
+		(property "Netclass" "Mains_LV"
+			(at 208.9785 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 210.82 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e6f3595-e0eb-4433-8993-986662032623")
+		(property "Netclass" "Mains_LV"
+			(at 211.5185 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 149.86 125.73 0)
 		(effects
 			(font
@@ -8206,6 +8252,52 @@
 		(uuid "487f05e6-c2b1-43b7-9506-b53b7496b470")
 		(property "Netclass" "Mains_HV"
 			(at 91.694 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 217.17 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "48d3fb0d-47e5-4436-a4ab-62d5204de625")
+		(property "Netclass" "Mains_LV"
+			(at 217.8685 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 246.38 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7245d541-ab19-4779-89c3-1eb062fda13a")
+		(property "Netclass" "Mains_LV"
+			(at 247.0785 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8262,6 +8354,52 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 208.28 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e60be26-39f1-44dc-ae17-d2cd779f3bba")
+		(property "Netclass" "Mains_LV"
+			(at 208.9785 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 246.38 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a35bb96a-ab48-453d-8451-0964540440c0")
+		(property "Netclass" "Mains_LV"
+			(at 247.0785 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 105.41 142.24 90)
 		(effects
 			(font
@@ -8272,6 +8410,29 @@
 		(uuid "d7c43c54-351e-42bd-8bc9-75237aecde71")
 		(property "Netclass" "Mains_LV"
 			(at 100.584 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 217.17 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eaaa17b6-72b4-4546-94d4-04edf15fb404")
+		(property "Netclass" "Mains_LV"
+			(at 217.8685 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
