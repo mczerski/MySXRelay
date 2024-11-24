@@ -84,17 +84,7 @@
         "clearance|176989790|89661726|aa0d433e-2256-4d05-9db5-0e86a1bb717f|cb7b9491-afd9-4673-bb3e-31f33e0db0cf",
         "clearance|177975816|87798427|cce8c281-3d99-4c1d-90b5-141abde095d8|278b3de2-4816-4b4c-94b6-fefd2f20d127",
         "clearance|179531450|85818529|6ab5596a-c36a-4aa8-8aae-87b4b54ec918|d23d9f8f-86cc-49d7-992f-e05884638bae",
-        "silk_edge_clearance|135420000|102350000|a10dbd79-5407-47ca-93e1-2f5c09ac529b|b9772794-8f3d-4534-aef0-cecc54f13ecb",
-        "silk_edge_clearance|135420000|126540000|a10dbd79-5407-47ca-93e1-2f5c09ac529b|5be52198-f7d1-4940-8bb8-22810e5d2447",
-        "silk_edge_clearance|135420100|101020000|a10dbd79-5407-47ca-93e1-2f5c09ac529b|bf2236f0-2fd4-4b24-8313-56130b1f0f96",
-        "silk_edge_clearance|135420100|103620000|a10dbd79-5407-47ca-93e1-2f5c09ac529b|a737b186-65cb-4721-b6d1-08b3f315cd22",
-        "silk_edge_clearance|135420100|126540000|a10dbd79-5407-47ca-93e1-2f5c09ac529b|99d60cb4-e723-48ef-939c-ec55f39236ca",
-        "silk_edge_clearance|143774500|127539663|e7a6364d-6ae4-4621-9797-2d5265849025|e633ecb4-0cad-4f4a-a000-2da57189171c",
-        "silk_edge_clearance|145298500|127539602|e7a6364d-6ae4-4621-9797-2d5265849025|c5e65562-3753-4d86-b17e-d80eb38046e0",
-        "silk_edge_clearance|150378500|127539397|e7a6364d-6ae4-4621-9797-2d5265849025|1a27da5a-8265-40e3-84c2-1712e1ddf242",
         "silk_edge_clearance|151465000|82469100|0af44777-956c-4eec-b9cb-d95d82ddea03|9246b799-3631-4983-a763-c8a73ad1d0ea",
-        "silk_edge_clearance|151902500|127539336|e7a6364d-6ae4-4621-9797-2d5265849025|53f89f3a-59f2-4619-8cce-1b4511b48840",
-        "silk_edge_clearance|154188500|127539244|e7a6364d-6ae4-4621-9797-2d5265849025|01ee07ba-1a2a-4858-b04a-01e2111e431b",
         "silk_edge_clearance|161820000|93694331|be3b7a01-9c8d-4621-a988-fb227e857013|869c2ea0-64d6-47fe-bacc-85a00e568f51",
         "silk_edge_clearance|163650000|127538863|e7a6364d-6ae4-4621-9797-2d5265849025|b3fc3677-dbc0-44d5-85b0-49c2ab519b03",
         "silk_edge_clearance|165174000|127538801|e7a6364d-6ae4-4621-9797-2d5265849025|f730ecb0-0b5e-4581-a8b5-76c94b442d2e",
@@ -120,7 +110,6 @@
         "silk_edge_clearance|178408022|85875000|998ea61e-c67a-4229-bc1b-6f2e7514ab99|6c15946b-30ab-40f3-b3d7-bdf4115c9227",
         "silk_edge_clearance|178936807|87827386|62388c69-df04-4cd1-9f9f-5a5ef911665a|987273ca-6b04-4166-bfc1-b362998d409c",
         "silk_edge_clearance|178954708|86421686|998ea61e-c67a-4229-bc1b-6f2e7514ab99|81a70fc5-4146-4714-88ee-9f59cb5686cc",
-        "silk_over_copper|144502250|122359500|01ee07ba-1a2a-4858-b04a-01e2111e431b|00000000-0000-0000-0000-000000000000",
         "silk_over_copper|167171750|122334500|15d69207-5979-410d-a526-4359429468d1|00000000-0000-0000-0000-000000000000",
         "silk_over_copper|173773773|98657252|289c8430-8133-44e0-9598-6ee69f7fc49b|00000000-0000-0000-0000-000000000000"
       ],
@@ -534,6 +523,40 @@
         "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "EXT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(1, 24, 255)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "EXT_VCC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(1, 24, 255)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
         "bus_width": 39,
         "clearance": 2.48,
         "diff_pair_gap": 0.25,
@@ -576,23 +599,6 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Mains_LV",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 164, 0)",
-        "track_width": 1.0,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 20
-      },
-      {
-        "bus_width": 39,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
         "name": "VCC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(77, 189, 18)",
@@ -607,16 +613,28 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "Net-(D5-A)": "Mains_HC",
+      "+5VD": "EXT_VCC",
+      "GND1": "EXT_VCC",
+      "Net-(D10-A2)": "EXT",
+      "Net-(D5-A)": "Mains_HV",
       "Net-(D5-K)": "Mains_HV",
       "Net-(D6-K)": "Mains_LV",
       "Net-(D7-A)": "Mains_LV",
       "Net-(D7-K)": "Mains_LV",
+      "Net-(D9-A2)": "EXT",
+      "Net-(Q2-D)": "EXT_VCC",
+      "Net-(Q2-S)": "EXT_VCC",
       "Net-(U2-IN)": "Mains_LV",
       "Net-(U2-IP)": "Mains_LV",
       "Net-(U2-VP)": "Mains_LV",
       "Net-(U3-CS)": "Mains_LV",
+      "Net-(U4-B1)": "EXT",
+      "Net-(U4-B2)": "EXT",
+      "Net-(U4-B3)": "EXT",
       "Net-(U5-VI)": "Mains_LV",
+      "Net-(U8-ADJ)": "EXT",
+      "Net-(X1-Pin_2)": "EXT",
+      "Net-(X1-Pin_3)": "EXT",
       "unconnected-(U2-SCLK_BPS-Pad8)": "Mains_LV",
       "unconnected-(U2-SEL-Pad7)": "Mains_LV",
       "unconnected-(U4-A4-Pad6)": "Mains_LV",
@@ -636,28 +654,28 @@
         "pattern": "L_OUT"
       },
       {
-        "netclass": "Mains_LV",
+        "netclass": "VCC",
         "pattern": "+3V3"
       },
       {
-        "netclass": "Mains_LV",
+        "netclass": "Default",
         "pattern": "N_OUT"
       },
       {
-        "netclass": "Mains_LV",
+        "netclass": "VCC",
         "pattern": "N_IN"
       },
       {
-        "netclass": "Mains_LV",
-        "pattern": "TX"
+        "netclass": "VCC",
+        "pattern": "GND"
       },
       {
-        "netclass": "Mains_LV",
-        "pattern": "RX"
+        "netclass": "VCC",
+        "pattern": "+5V"
       },
       {
-        "netclass": "Mains_LV",
-        "pattern": "CF1"
+        "netclass": "EXT_VCC",
+        "pattern": "GND1"
       }
     ]
   },
@@ -778,6 +796,10 @@
     [
       "73ae532b-17b2-4152-9abe-0d6b33529f07",
       "Główny"
+    ],
+    [
+      "fd4e76ca-d530-44c8-b4ec-e44050bd29b3",
+      "MCU"
     ]
   ],
   "text_variables": {}

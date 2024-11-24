@@ -1,4 +1,7 @@
 (version 1)
-(rule different_netclass_clearance
-  (condition "A.NetClass == 'Mains_*' && A.NetClass != B.NetClass")
+(rule ext_netclass_clearance
+  (condition "A.NetClass == 'EXT*' && B.NetClass != 'EXT*'")
+  (constraint clearance (min 2.48mm)))
+(rule mains_netclass_clearance
+  (condition "A.NetClass == 'MAINS*' && B.NetClass != 'MAINS*'")
   (constraint clearance (min 2.48mm)))
