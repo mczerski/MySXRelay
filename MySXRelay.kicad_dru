@@ -5,3 +5,15 @@
 (rule mains_netclass_clearance
   (condition "A.NetClass == 'MAINS*' && B.NetClass != 'MAINS*'")
   (constraint clearance (min 2.48mm)))
+(rule bp2525_pads_clearance
+  (condition "A.NetName == '/BP2525_CS' && B.NetName == '/BP2525_DRAIN'")
+  (constraint clearance (min 0.92mm)))
+(rule relay_pads_clearance
+  (condition "A.NetName == 'L_IN' && B.NetName == 'L_OUT'")
+  (constraint clearance (min 1.2mm)))
+(rule lsense_pads_clearance
+  (condition "A.NetName == 'L_IN' && B.NetName == 'L_SENSE'")
+  (constraint clearance (min 1.8mm)))
+(rule input_cap_clearance
+  (condition "A.NetName == 'N_IN' && B.NetName == '/BP2525_DRAIN'")
+  (constraint clearance (min 1.9mm)))

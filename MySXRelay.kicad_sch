@@ -4851,6 +4851,12 @@
 		(uuid "b9f98e8c-c2b7-458a-9a0c-5b5853110532")
 	)
 	(junction
+		(at 162.56 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5fe5ab2-51c9-4137-9044-39b107b11930")
+	)
+	(junction
 		(at 96.52 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5059,6 +5065,16 @@
 			(type default)
 		)
 		(uuid "1cafe819-1ea7-40f8-acfa-9186ab088a43")
+	)
+	(wire
+		(pts
+			(xy 166.37 63.5) (xy 162.56 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0ab0c3-4f63-46bf-be38-8988adc271d0")
 	)
 	(wire
 		(pts
@@ -5379,6 +5395,16 @@
 			(type default)
 		)
 		(uuid "5d9dc4c9-7b41-46fc-a451-000e90d06e10")
+	)
+	(wire
+		(pts
+			(xy 162.56 63.5) (xy 162.56 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fad75c9-691c-4f12-8211-14d5c324263c")
 	)
 	(wire
 		(pts
@@ -6224,6 +6250,50 @@
 		)
 		(uuid "c7e2c023-4c6b-4519-bccc-271f715080cd")
 	)
+	(label "BP2525_CS"
+		(at 175.26 143.51 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37d78f3e-5835-4982-883f-1c53c67122b7")
+	)
+	(label "BP2525_DRAIN"
+		(at 173.99 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98eb98c1-85e6-44f7-b737-6d4942f3e582")
+	)
+	(global_label "L_SENSE"
+		(shape input)
+		(at 166.37 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0263e56b-1219-4080-83f8-9aa0467061a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.3984 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RS485_TX"
 		(shape input)
 		(at 45.72 152.4 180)
@@ -6900,7 +6970,7 @@
 		)
 		(uuid "b2b8c80a-0660-44e1-a3d4-541ed0388f52")
 		(property "Netclass" "Mains_HV"
-			(at 188.976 116.332 0)
+			(at 188.976 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8090,7 +8160,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3a2b2ea1-8dfd-4994-b9b7-b388f10120a3")
 		(property "Reference" "#PWR032"
 			(at 162.56 64.77 0)
@@ -8102,7 +8171,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 63.5 0)
+			(at 159.258 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8867,7 +8936,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "100p"
 			(at 92.71 114.3001 0)
 			(effects
 				(font
@@ -8876,7 +8945,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 95.5548 111.76 0)
 			(effects
 				(font

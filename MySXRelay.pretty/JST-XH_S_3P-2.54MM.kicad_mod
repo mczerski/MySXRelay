@@ -203,7 +203,7 @@
 		(uuid "f5ba58e1-8b78-431a-8346-eca2e025eb5e")
 	)
 	(fp_rect
-		(start -1.524 -5.08)
+		(start 0.276 -5.08)
 		(end 7.874 5.334)
 		(stroke
 			(width 0.05)
