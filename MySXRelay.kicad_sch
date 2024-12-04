@@ -11125,7 +11125,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MySXRelay:MSTB_2,5_4-G"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal"
 			(at 231.14 104.14 0)
 			(effects
 				(font
