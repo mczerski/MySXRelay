@@ -4037,22 +4037,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -5.08 5.715 0)
+			(property "Reference" "U8"
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "AP2204K-ADJ"
-				(at 0 5.715 0)
+			(property "Value" "AP2202K-5.0"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
@@ -4064,7 +4062,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/products_inactive_data/AP2204.pdf"
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2202.pdf"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -4171,7 +4169,7 @@
 				(pin input line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "ADJ"
+					(name "BYP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9591,7 +9589,7 @@
 				)
 			)
 		)
-		(property "Value" "AP2204K-ADJ"
+		(property "Value" "AP2202K-5.0"
 			(at 105.41 105.41 0)
 			(effects
 				(font
@@ -9608,7 +9606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/products_inactive_data/AP2204.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2202.pdf"
 			(at 105.41 109.22 0)
 			(effects
 				(font

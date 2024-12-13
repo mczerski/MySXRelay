@@ -190,7 +190,7 @@
 	(net 45 "/MCU/LED")
 	(net 46 "/MCU/A1")
 	(net 47 "D8")
-	(net 48 "Net-(U8-ADJ)")
+	(net 48 "Net-(U8-BYP)")
 	(net 49 "D5")
 	(net 50 "D2")
 	(net 51 "Net-(U4-B1)")
@@ -863,7 +863,7 @@
 				)
 			)
 		)
-		(property "Value" "AP2204K-ADJ"
+		(property "Value" "AP2202K-5.0"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "06cd0d54-1271-45f6-a8f1-8a994bf87263")
@@ -886,7 +886,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/products_inactive_data/AP2204.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2202.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1103,8 +1103,8 @@
 			(size 1.325 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 48 "Net-(U8-ADJ)")
-			(pinfunction "ADJ")
+			(net 48 "Net-(U8-BYP)")
+			(pinfunction "BYP")
 			(pintype "input")
 			(uuid "585b76bd-5bbf-4dd9-be30-4201c5d8e66e")
 		)
@@ -4800,7 +4800,7 @@
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 48 "Net-(U8-ADJ)")
+			(net 48 "Net-(U8-BYP)")
 			(pintype "passive")
 			(uuid "70599b83-0ed1-4636-bc8a-3d95eb04c77c")
 		)

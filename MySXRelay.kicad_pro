@@ -300,7 +300,11 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|1054100|1117600|6e7889bf-cfd4-4c62-8782-8584fba4d351|00000000-0000-0000-0000-000000000000|||",
+      "multiple_net_names|1625600|584200|296468c5-edf6-4b20-96af-a2b918eadb67|dc8f6f24-8d68-412f-8fbc-3c5d47b369de|/73ae532b-17b2-4152-9abe-0d6b33529f07|/73ae532b-17b2-4152-9abe-0d6b33529f07|/73ae532b-17b2-4152-9abe-0d6b33529f07",
+      "multiple_net_names|622300|990600|c6f52e14-17b2-488c-bcc2-1c84ab2de5ce|0786ea2d-8ecc-41a3-9eb6-d5824256da8d|/73ae532b-17b2-4152-9abe-0d6b33529f07/fd4e76ca-d530-44c8-b4ec-e44050bd29b3|/73ae532b-17b2-4152-9abe-0d6b33529f07/fd4e76ca-d530-44c8-b4ec-e44050bd29b3|/73ae532b-17b2-4152-9abe-0d6b33529f07/fd4e76ca-d530-44c8-b4ec-e44050bd29b3"
+    ],
     "meta": {
       "version": 0
     },
@@ -650,6 +654,7 @@
       "Net-(U4-B3)": "EXT",
       "Net-(U5-VI)": "Mains_LV",
       "Net-(U8-ADJ)": "EXT",
+      "Net-(U8-BYP)": "EXT",
       "Net-(X1-Pin_2)": "EXT",
       "Net-(X1-Pin_3)": "EXT",
       "unconnected-(U2-SCLK_BPS-Pad8)": "Mains_LV",
