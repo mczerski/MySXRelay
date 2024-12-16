@@ -3916,7 +3916,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP1703Ax-180xxTT"
+		(property "Value" "AP2127N-3.3"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "041cfb8b-2bb0-460d-9a8f-707a2e2b3dce")
@@ -3939,7 +3939,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2127.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3951,7 +3951,7 @@
 				)
 			)
 		)
-		(property "Description" "Low Quiescent Current LDO Regulator, 1.8V, 250mA, Vin<=16V, SOT-23"
+		(property "Description" "300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 3.3V fixed positive output, SOT-23 package"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3964,7 +3964,7 @@
 			)
 		)
 		(property ki_fp_filters "SOT?23*")
-		(path "/98a78d10-fca0-4a37-bf8d-884d405be6d9")
+		(path "/398bc04f-5bce-4271-ac11-3858aa347fe9")
 		(sheetname "Główny")
 		(sheetfile "MySXRelay.kicad_sch")
 		(attr smd)
@@ -4881,7 +4881,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "BSS84A"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "8398b5b6-babc-4027-b02a-704321ca82ef")
@@ -13750,7 +13750,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Switch/LED"
 			(at 3.4485 -6.042 90)
 			(layer "B.Fab")
 			(uuid "7f802fec-98ef-48a8-88fd-212c380578dd")
@@ -17820,7 +17820,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Mains"
 			(at 7.62 -5.66 0)
 			(layer "B.Fab")
 			(uuid "2918ce59-40ee-409a-bd92-bf209f9b2b11")
@@ -18721,7 +18721,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "RS485"
 			(at 3.4485 -1.085 90)
 			(layer "B.Fab")
 			(uuid "e931f1c6-b63b-4b86-be13-c7db5f633338")
