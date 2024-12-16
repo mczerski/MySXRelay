@@ -3498,17 +3498,6 @@
 		)
 		(uuid "42796d52-4211-4e65-b100-5ce86db4a398")
 	)
-	(text "Switch/LED"
-		(exclude_from_sim no)
-		(at 183.134 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b02eacd0-5687-459d-a658-c4f26ec0bdfd")
-	)
 	(label "RST"
 		(at 117.475 85.09 0)
 		(fields_autoplaced yes)
@@ -6231,8 +6220,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 169.545 116.84 0)
+		(property "Value" "Switch/LED"
+			(at 178.562 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
