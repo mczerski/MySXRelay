@@ -3456,7 +3456,7 @@
 	)
 	(text "Switch"
 		(exclude_from_sim no)
-		(at 212.598 118.364 0)
+		(at 212.09 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3478,7 +3478,7 @@
 	)
 	(text "LED"
 		(exclude_from_sim no)
-		(at 197.358 147.574 0)
+		(at 196.85 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3489,7 +3489,7 @@
 	)
 	(text "MCU"
 		(exclude_from_sim no)
-		(at 93.091 133.35 0)
+		(at 92.71 133.35 0)
 		(effects
 			(font
 				(size 2 2)
@@ -3499,7 +3499,7 @@
 		(uuid "42796d52-4211-4e65-b100-5ce86db4a398")
 	)
 	(label "RST"
-		(at 117.475 85.09 0)
+		(at 118.11 85.09 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -3529,7 +3529,7 @@
 		(uuid "70e42b36-0b1f-45e8-aad8-8c8d6ea2cc9c")
 	)
 	(label "A1"
-		(at 117.475 72.39 0)
+		(at 118.11 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
