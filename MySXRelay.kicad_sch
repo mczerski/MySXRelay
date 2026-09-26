@@ -6230,7 +6230,6 @@
 	)
 	(label "BP2525_CS"
 		(at 175.26 143.51 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6241,7 +6240,6 @@
 	)
 	(label "BP2525_DRAIN"
 		(at 173.99 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7277,7 +7275,7 @@
 				)
 			)
 		)
-		(property "Value" "BP2525X"
+		(property "Value" "BP2525D"
 			(at 186.69 123.19 0)
 			(effects
 				(font
@@ -7545,21 +7543,20 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "124a373a-d4a8-4908-a303-58a454610aa6")
 		(property "Reference" "F1"
-			(at 118.11 148.59 90)
+			(at 113.538 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Polyfuse"
-			(at 118.11 151.13 90)
+		(property "Value" "PTS120660V010"
+			(at 116.078 158.496 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -8049,18 +8046,18 @@
 		(dnp no)
 		(uuid "351b1948-54ea-46cf-ade2-e7214d07d683")
 		(property "Reference" "F2"
-			(at 129.54 146.304 90)
+			(at 128.016 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Polyfuse"
-			(at 129.54 148.59 90)
+		(property "Value" "PTS120660V010"
+			(at 126.746 149.606 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)

@@ -3500,7 +3500,6 @@
 	)
 	(label "RST"
 		(at 117.475 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -3511,7 +3510,6 @@
 	)
 	(label "LED"
 		(at 177.8 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3522,7 +3520,6 @@
 	)
 	(label "SW"
 		(at 177.8 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3533,7 +3530,6 @@
 	)
 	(label "A1"
 		(at 117.475 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4111,7 +4107,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AT25xxx"
+		(property "Value" "AT25512"
 			(at 196.5041 40.64 0)
 			(effects
 				(font
@@ -4129,7 +4125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8707-SEEPROM-AT25010B-020B-040B-Datasheet.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/AT25512-SPI-Serial-EEPROM-512-Kbits-20006218A.pdf"
 			(at 194.31 48.26 0)
 			(effects
 				(font
