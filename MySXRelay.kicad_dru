@@ -1,19 +1,73 @@
 (version 1)
-(rule ext_netclass_clearance
-  (condition "A.NetClass == 'EXT*' && B.NetClass != 'EXT*' && B.NetName != 'unconnected-*'")
-  (constraint clearance (min 6mm)))
-(rule mains_netclass_clearance
-  (condition "A.NetClass == 'MAINS*' && B.NetClass != 'MAINS*'")
-  (constraint clearance (min 2.48mm)))
-(rule bp2525_pads_clearance
-  (condition "A.NetName == '/BP2525_CS' && B.NetName == '/BP2525_DRAIN'")
-  (constraint clearance (min 0.92mm)))
-(rule relay_pads_clearance
-  (condition "A.NetName == 'L_IN' && B.NetName == 'L_OUT'")
-  (constraint clearance (min 1.2mm)))
-(rule lsense_pads_clearance
-  (condition "A.NetName == 'L_IN' && B.NetName == 'L_SENSE'")
-  (constraint clearance (min 1.8mm)))
-(rule input_cap_clearance
-  (condition "A.NetName == 'N_IN' && B.NetName == '/BP2525_DRAIN'")
-  (constraint clearance (min 1.9mm)))
+
+(rule j3_mains_slot
+    (condition "A.intersectsArea('J3_MAINS_SLOT') && B.intersectsArea('J3_MAINS_SLOT') && A.NetName == 'L_IN' && B.NetName == 'L_OUT'")
+    (constraint clearance (min 1.9mm)))
+
+(rule l_out_slot
+    (condition "A.intersectsArea('L_OUT_SLOT') && B.intersectsArea('L_OUT_SLOT') && A.NetName == 'L_OUT'")
+    (constraint clearance (min 1.7mm)))
+
+(rule input_diode
+    (condition "A.intersectsArea('INPUT_DIODE') && B.intersectsArea('INPUT_DIODE') && A.NetName == '/BP2525_DRAIN' && B.NetName == 'Net-(D5-A)'")
+    (constraint clearance (min 1.5mm)))
+
+(rule smps_domain_floor
+  (condition "A.NetClass == 'HV_SMPS' && B.NetClass == 'HV_SMPS'")
+  (constraint clearance (min 0.5mm)))
+
+(rule sw_node_exception
+  (condition "A.NetName == '/SW_NODE' && (B.NetName == 'N_IN' || B.NetName == '+5V' || B.NetName == 'Net-(D7-A)')")
+  (constraint clearance (min 1.5mm)))
+
+(rule u3_vcc_exception
+  (condition "A.NetName == '/U3_VCC' && (B.NetName == 'Net-(D7-A)' || B.NetName == '+5V' || B.NetName == 'N_IN')")
+  (constraint clearance (min 1.5mm)))
+
+(rule bp2525_drain_exception
+  (condition "A.NetName == '/BP2525_DRAIN' && B.NetName == 'N_IN'")
+  (constraint clearance (min 1.5mm)))
+
+(rule bp2525_drain_to_cs_exception
+  (condition "A.NetName == '/BP2525_DRAIN' && B.NetName == '/BP2525_CS'")
+  (constraint clearance (min 0.9mm)))
+
+(rule bp2525_cs_exception
+  (condition "A.NetName == '/BP2525_CS' && B.NetName == 'N_IN'")
+  (constraint clearance (min 1.5mm)))
+
+(rule tap_div4
+  (condition "A.NetName == '/L_DIV4' && B.NetClass != 'HV*' && B.NetClass != 'EXT*'")
+  (constraint clearance (min 2mm)))
+
+(rule tap_div3
+  (condition "A.NetName == '/L_DIV3' && B.NetClass != 'HV*' && B.NetClass != 'EXT*'")
+  (constraint clearance (min 1.6mm)))
+
+(rule tap_div2
+  (condition "A.NetName == '/L_DIV2' && B.NetClass != 'HV*' && B.NetClass != 'EXT*'")
+  (constraint clearance (min 1.4mm)))
+
+(rule tap_div1
+  (condition "A.NetName == '/L_DIV1' && B.NetClass != 'HV*' && B.NetClass != 'EXT*'")
+  (constraint clearance (min 0.8mm)))
+
+(rule div_l_in_div4
+  (condition "A.NetName == 'L_IN' && B.NetName == '/L_DIV4'")
+  (constraint clearance (min 0.85mm)))
+
+(rule div4_div3
+  (condition "A.NetName == '/L_DIV4' && B.NetName == '/L_DIV3'")
+  (constraint clearance (min 0.85mm)))
+
+(rule div3_div2
+  (condition "A.NetName == '/L_DIV3' && B.NetName == '/L_DIV2'")
+  (constraint clearance (min 0.85mm)))
+
+(rule div2_div1
+  (condition "A.NetName == '/L_DIV2' && B.NetName == '/L_DIV1'")
+  (constraint clearance (min 0.85mm)))
+
+(rule iso_barrier
+     (condition "A.NetClass == 'EXT*' && B.NetClass != 'EXT*'")
+     (constraint clearance (min 6mm)))
