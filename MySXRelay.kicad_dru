@@ -52,8 +52,8 @@
   (condition "A.NetName == '/L_DIV1' && B.NetClass != 'HV*' && B.NetClass != 'EXT*'")
   (constraint clearance (min 0.8mm)))
 
-(rule div_l_in_div4
-  (condition "A.NetName == 'L_IN' && B.NetName == '/L_DIV4'")
+(rule div_l_out_div4
+  (condition "A.NetName == 'L_OUT' && B.NetName == '/L_DIV4'")
   (constraint clearance (min 0.85mm)))
 
 (rule div4_div3
